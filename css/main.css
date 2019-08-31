@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: "Bebas Nue";
+    src: url("../fonts/Bebas Nue/eot/BebasNeue-Regular.eot");
+    src:
+    url("css/fonts/Harabara.woff") format("woff"),
+    url("css/fonts/Harabara.otf") format("opentype"),
+    url("css/fonts/Harabara.svg#filename") format("svg");
+    }
+
+
+#navbarClass{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    padding: 25px;
+    color: #090A3D;
+}
+
+#navbarBrand{
+    font-size: 2.2rem;
+    letter-spacing: -0.15rem;
+    color: #090A3D;
+    
+}
+.header-main{
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 40rem;
+    background-image: url("../img/cool-background.svg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+
+.header-main h1{
+    font-family: 'Bebas Nue', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;   
+    letter-spacing: -0.20rem;
+}
+
+.header-meta{
+    width: 60%;
+}
+
+.header-main h2{
+    letter-spacing: -0.10rem;
+}
+
+.header-main p{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-text{
+    color: #FDF5A4;
+}
+
+ml-10{
+    margin-left: 50px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  
+    .header-meta{
+        width: 90%;
+    }
+  
+    .header-text{
+        font-size: 2.6rem;
+        color: #FDF5A4;
+    }
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {       
+    
+ }
+
+ @media (max-width: 575.98px) { 
+    #navbarBrand{
+        font-size: 1.5rem;
+        letter-spacing: -0.15rem;
+        color: #090A3D;
+        
+    }
+
+    #navbarClass{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: italic;
+        color: #090A3D;
+    }
+
+    .header-main h1{
+        font-family: 'Bebas Nue', sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;   
+        letter-spacing: -0.20rem;
+    }    
+
+    .header-main h2{
+        letter-spacing: -0.10rem;
+    }
+    
+    .header-main p{
+        color:black;
+        font-family: 'Roboto', sans-serif;
+    }
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .mt-md-15{
+        margin-top: 70px !important;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .mt-md-15{
+        margin-top: 70px !important;
+    }
+} 
